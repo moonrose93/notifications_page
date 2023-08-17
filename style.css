@@ -1,0 +1,649 @@
+body{
+    background-color: aliceblue;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 100vh;
+    
+}
+
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    height: 100%;
+    max-height: 85%;   
+   
+}
+
+
+.txt-2-row{
+    position: absolute;
+    left: 130px;
+    bottom: 150px;
+    pointer-events: none;
+}
+
+.notify{
+    font-size: 1.6rem;
+}
+
+.notifications{
+    display: flex;
+    margin-bottom: 30px; 
+}
+
+.num-three-mobile{
+    display: none;
+}
+
+.time-six{
+    position: absolute;
+    top:650px;
+    font-size: 1rem;
+    right: 560px;
+    color: gray;
+}
+.time-seven{
+    position: absolute;
+    top:742px;
+    font-size: 1rem;
+    right: 560px;
+    color: gray;
+}
+
+.number{
+    display: inline-block;
+    font-size: 1.4rem;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 3px 15px;
+    border-radius: 8px;
+}
+
+.circle {
+    width: 10px; /* Adjust the width and height as needed */
+    height: 10px; /* Make sure width and height are equal for a perfect circle */
+    background-color: rgb(255, 94, 0); /* Adjust the color as needed */
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+
+
+
+
+.person-one{
+    display: flex;
+}
+
+.person-one-image{
+    width: 100%;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 20px;
+}
+
+.peson-one-name{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.peson-one-name:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+
+.text-one{
+    display: flex;
+    margin-top: 5px;
+}
+
+.num-five-mobile{
+    display: none;
+}
+
+
+
+.time-one{
+    position: absolute;
+    top:125px;
+    font-size: 1rem;
+    right: 600px;
+    color: gray;
+}
+
+.time-one{
+    pointer-events: none;
+}
+
+.mark-all-as-read{
+    margin-left: 375px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.mark-all-as-read:hover{
+    color: darkblue;
+}
+
+.num-one {
+background-color: aliceblue;
+border-radius: 5px;
+}
+
+.num-three {
+    background-color: aliceblue;
+    border-radius: 5px;
+    }
+
+.num-four-mobile{
+    display: none;
+}
+
+.bold-statment{
+    color: gray;
+    font-weight: 400;
+}
+
+.bold-statment:hover{
+    color: darkblue;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.person-two{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.person-three{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.time-three{
+    position: absolute;
+    top:305px;
+    font-size: 1rem;
+    right: 580px;
+    color: gray;
+    font-weight: 400;
+    pointer-events: none;
+}
+
+.time-two{
+    position: absolute;
+    top:215px;
+    font-size: 1rem;
+    right: 596px;
+
+    color: gray;
+}
+
+.time-five{
+    position: absolute;
+    top:548px;
+    font-size: 1rem;
+    right: 570px;
+    color: gray;
+}
+
+.person-six{
+    display: flex;
+    line-height: 1.6rem;
+}
+
+.last{
+    position: absolute;
+    right:480px;
+    color: gray;
+    font-weight: 600;
+}
+
+.container-mobile{
+    display: none;
+}
+
+.person-seven{
+    display: flex;
+    margin-top: 35px;
+}
+
+
+
+.num-six-mobile{
+    display: none;
+}
+
+
+
+.rate{
+    font-weight: 600;
+    color: gray;
+
+}
+
+.num-two-mobile{
+    display: none;
+}
+.person-four{
+    display: flex;
+}
+
+.person-five{
+    display: flex;
+}
+
+.img-chess{
+    width: 50px;
+    height: 50px;
+    margin-left: 210px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.num-seven-mobile{
+    display: none;
+}
+
+
+
+.message{
+    background: aliceblue;
+    border-radius: 5px;
+}
+
+.message{
+    padding: 5px 20px;
+    margin-left: 80px;
+    line-height: 1.3rem;
+   
+}
+
+.num-two{
+    background: aliceblue;
+}
+
+
+.num-one-mobile{
+ display: none;   
+}
+
+.time-four{
+    position: absolute;
+    top:385px;
+    font-size: 1rem;
+    right: 570px;
+    color: gray;
+}
+
+@media(max-width:480px){
+
+    body{
+        font-size: 0.9rem;
+        background: white;
+        box-sizing: border-box;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 400px;
+        padding: 0px;
+        height: 100%;
+        max-height: auto;
+        display: grid;
+        
+        
+    }
+  .num-one-mobile{
+    display: block;
+    line-height: 1.2rem;
+    margin: 0px 10px;
+    border-radius: 5px;
+  }
+
+  .num-one-mobile {
+    background: aliceblue;
+    margin-bottom: 10px;
+  }
+  .num-one{
+    display: none;
+  }
+
+  .span3{
+    color: gray;
+    font-weight: 400;
+  }
+
+  .peson-one-name-mobile{
+    margin-left: 0px;
+    font-weight: 600;
+}
+
+
+
+.num-three-mobile{
+    display: block;
+    line-height: 1.2rem;
+}
+
+.num-three{
+    display: none;
+}
+
+.follow{
+    color: gray;
+    font-weight: 400;
+}
+
+.peson-one-name-mobile:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+
+    .mark-all-as-read{
+        margin-left: 75px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+
+    .time-one-mobile{
+        position: absolute;
+        top:65px;
+        left: 90px;
+        pointer-events: none;
+        color: gray;
+    }
+
+    .img-chess{
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .person-one-span2{
+        color: gray;
+    }
+    .person-one-span2:hover{
+        color: darkblue;
+    }
+
+    .person-one-span{
+        color: gray;
+        font-weight: 400;
+    }
+
+    .notifications{
+        margin-top: -30px;
+        display: flex;
+        margin-bottom: 10px;
+        margin-left: 20px; 
+        
+    }
+
+    .notify{
+        font-size: 1.2rem;
+    }
+
+    .number{
+        display: inline-block;
+        font-size: 1.1rem;
+        background-color: darkblue;
+        color: aliceblue;
+        padding: 3px 15px;
+        border-radius: 8px;
+    }
+
+    .circle1 {
+        width: 6px; /* Adjust the width and height as needed */
+        height: 6px; /* Make sure width and height are equal for a perfect circle */
+        background-color: rgb(255, 94, 0); /* Adjust the color as needed */
+        border-radius: 50%;
+        position: relative;
+        top: 40px;
+        left: -20px;
+    }
+
+      .circle2 {
+        width: 6px; /* Adjust the width and height as needed */
+        height: 6px; /* Make sure width and height are equal for a perfect circle */
+        background-color: rgb(255, 94, 0); /* Adjust the color as needed */
+        border-radius: 50%;
+        position: relative;
+        top: 30px;
+        left: 9px;
+    }
+
+    .person-six-mobile{
+        display: flex;
+        line-height: 1.2rem;
+    }
+
+    .num-seven-mobile{
+        display: block;
+    }
+
+    
+
+    .your{
+        color: gray;
+        font-weight: 400;
+    }
+
+    .num-six{
+        display: none;
+        line-height: 1.2rem;
+    }
+
+    .num-six-mobile{
+        display: block;
+    }
+
+    .circle3 {
+        width: 6px; /* Adjust the width and height as needed */
+        height: 6px; /* Make sure width and height are equal for a perfect circle */
+        background-color: rgb(255, 94, 0); /* Adjust the color as needed */
+        border-radius: 50%;
+        position: relative;
+        top: 40px;
+        right: 90px;
+    }
+
+    .circle {
+        width: 6px; /* Adjust the width and height as needed */
+        height: 6px; /* Make sure width and height are equal for a perfect circle */
+        background-color: rgb(255, 94, 0); /* Adjust the color as needed */
+        border-radius: 50%;
+        position: relative;
+        top: 25px;
+        left: 10px;
+        display: none;
+    }
+
+    .text-two-mobile{
+      margin-top: 10px;
+    }
+   .num-four{
+    display: none;
+   }
+
+   .msg{
+    color: gray;
+    font-weight: 400;
+   }
+
+   .num-seven{
+    display: none;
+   }
+   .person-seven-mobile{
+    display: flex;
+   }
+   .person-four-mobile{
+    display: flex;
+    line-height: 1.2rem;
+
+   }
+    .text-four-mobile{
+        display: flex;
+    }
+
+    .num-five{
+        display: none;
+    }
+
+    .num-two-mobile{
+        display: block;
+        margin: 0px 10px;
+        border-radius: 5px;
+    }
+
+    .num-two-mobile{
+        
+        margin-bottom: 10px;
+    }
+    .num-two{
+        display: none;
+    }
+
+    .num-four-mobile{
+        display: block;
+    }
+
+    .num-three-mobile {
+        background-color: aliceblue;
+        margin: 0px 10px;
+        border-radius: 5px;
+        }
+
+    .time-two-mobile{
+        position: absolute;
+        top:150px;
+        left:90px;
+        color: gray;
+    }
+
+    .time-four-mobile{
+        position: absolute;
+        left:90px;
+        top:310px;
+        color: gray;
+    }
+
+   
+
+    .num-five-mobile{
+        display: block;
+    }
+
+    .person-five-mobile{
+        display: flex;
+        line-height: 1.2rem;
+    }
+
+    .message-mobile{
+        padding: 5px 20px;
+        margin-left: 70px;
+        margin-right: 50px;
+        line-height: 1.2rem;
+        border: 1px solid rgb(216, 211, 211);
+        border-radius: 5px;
+        position: relative;
+        left:20px;
+        margin-bottom: 10px;
+        color: gray;
+        
+       
+    }
+
+
+    .commented{
+        color: gray;
+        font-weight: 400;
+    }
+
+    .time-five-mobile{
+        position: absolute;
+        top:540px;
+        left: 90px;
+        pointer-events: none;
+        color: gray;
+    }
+
+    .time-six-mobile{
+        position: absolute;
+        top:640px;
+        left: 90px;
+        pointer-events: none;
+        color: gray;
+    }
+
+    .time-seven-mobile{
+        position: absolute;
+        top:700px;
+        left: 90px;
+        pointer-events: none;
+        color: gray;
+    }
+
+    .end{
+        color: gray;
+    }
+
+
+    .time-three-mobile{
+        position: absolute;
+        top:245px;
+        left:90px;
+        color: gray;
+        pointer-events: none;
+    }
+
+    .person-three-mobile{
+        display: flex;
+    }
+
+    .person-two-mobile{
+        display: flex;
+       
+    }
+
+    .num-two-mobile{
+        background: aliceblue;
+    }
+
+    .bold-statment{
+        color: gray;
+        font-weight: 600;
+    }
+    
+    .bold-statment:hover{
+        color: darkblue;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .img-chess-mobile{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+}
