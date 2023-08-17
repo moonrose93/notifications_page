@@ -68,9 +68,9 @@ body{
 }
 
 .circle {
-    width: 10px; /* Adjust the width and height as needed */
-    height: 10px; /* Make sure width and height are equal for a perfect circle */
-    background-color: rgb(255, 94, 0); /* Adjust the color as needed */
+    width: 10px; 
+    height: 10px; 
+    background-color: rgb(255, 94, 0); 
     border-radius: 50%;
     position: relative;
     top: 25px;
