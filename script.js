@@ -6,7 +6,7 @@ const personTwoMobile = document.getElementById("num-two-mobile");
 const personThreeMobile = document.getElementById("num-three-mobile");
 const message = document.getElementById("message");
 const btnEl = document.getElementById("mark-all-as-read");
-
+const number = document.getElementById("number");
 //Circles-desktop
 
 const circleOne = document.getElementById("circle");
@@ -28,6 +28,7 @@ btnEl.addEventListener("click",()=>{
  personOneMobile.style.backgroundColor = "white";
  personTwoMobile.style.backgroundColor = "white";
  personThreeMobile.style.backgroundColor="white";
+ number.innerText = "0"
 
  circleOne.style.display = "none";
  circleTwo.style.display = "none";
